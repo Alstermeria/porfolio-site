@@ -38,15 +38,11 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Меня зовут Татьяна, я начинающий web-разработчик с 2020 года.'}
+                  {paragraphOne || 'Меня зовут Татьяна, я начинающий web-разработчик с 2020 года.'}
                 </p>
+                <p className="about-wrapper__info-text">{paragraphTwo || 'Мои навыки:'}</p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Профессиональные навыки:'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Языки:  JavaScrip (базовый уровень). Верстка: HTML, CSS (0,5 года). Фреймворки: Bootstrap (0,5 года), Gatsby. Frontend: React. '}
+                  {paragraphThree || 'HTML5&CSS, JavaScript, DOM, Git, Bootstrap, Gatsby, React. '}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
