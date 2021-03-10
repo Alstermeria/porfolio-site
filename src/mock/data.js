@@ -20,6 +20,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'chicken-site.jpg',
+    title: 'Сайт с курочками',
+    info: 'В разработке',
+    info2: '',
+    url: 'https://silly-mirzakhani-42050d.netlify.app',
+  },
+  {
+    id: nanoid(),
     img: 'project2.jpg',
     title: 'Сайт грузоперевозок',
     info: 'Первый проект. С использованием HTML, CSS, JavaScript и PHP',
